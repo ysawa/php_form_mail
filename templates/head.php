@@ -1,5 +1,9 @@
 <meta charset='UTF-8' />
-<title>Hello, world!</title>
+<?php if ($subtitle) { ?>
+<title><?php echo $subtitle; ?> | PHP応用 -フォームを自作できるようになろう-</title>
+<?php } else { ?>
+<title>PHP応用 -フォームを自作できるようになろう-</title>
+<?php } ?>
 <meta content='Hello World Page' name='description' />
 <meta content='Hello,World' name='keywords' />
 <link href="<?php echo ROOT_PATH ?>assets/css/app.css" rel="stylesheet" type="text/css">
