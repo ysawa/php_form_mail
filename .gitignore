@@ -26,3 +26,5 @@ pkg
 /.jhw-cache
 
 .htpasswd
+
+/default.php
