@@ -1,0 +1,7 @@
+<h1>
+<?php if ($subtitle) { ?>
+<?php echo $subtitle; ?> : PHP応用 -フォームを自作できるようになろう-
+<?php } else { ?>
+PHP応用 -フォームを自作できるようになろう-
+<?php } ?>
+</h1>

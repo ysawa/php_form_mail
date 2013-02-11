@@ -1,0 +1,30 @@
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px; }
+
+pre {
+  font-family: "Bitstream Vera Sans Mono", Consolas, Courier, monospace; }
+
+table.fields {
+  border: 1px solid #f0f0f0;
+  width: 640px; }
+  table.fields th, table.fields td {
+    border: 1px solid #f0f0f0;
+    text-align: left;
+    padding: 5px 10px; }
+  table.fields tbody th {
+    width: 140px;
+    padding: 5px 10px; }
+  table.fields tbody td input[type="text"] {
+    width: 440px; }
+  table.fields tbody td textarea {
+    width: 440px; }
+  table.fields tfoot td.actions {
+    text-align: center; }
+    table.fields tfoot td.actions input[type="submit"] {
+      background-color: silver;
+      border-color: silver;
+      border-style: outset;
+      border-width: 2px;
+      -webkit-appearance: none;
+      width: 100px; }

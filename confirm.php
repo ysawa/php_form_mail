@@ -1,5 +1,5 @@
 <?php require_once './default.php'; ?>
-<?php $subtitle = ''; ?>
+<?php $subtitle = '確認画面'; ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html lang='ja'>
 <head>
@@ -10,7 +10,7 @@
 <?php include 'header.php'; ?>
 </header>
 <section id='global_body'>
-<p>お問い合わせ内容を記入してください。</p>
+<p>内容を確認して送信してください。</p>
 <table class='fields'>
 <thead>
 <tr>
@@ -23,33 +23,21 @@
 <tbody>
 <tr>
 <th>
-名前
-</th>
-<td>
-<input name='' placeholder='名前' type='text' />
-</td>
-</tr>
-<tr>
-<th>
 メールアドレス
 </th>
-<td>
-<input name='' placeholder='メールアドレス' type='text' />
-</td>
+<td></td>
 </tr>
 <tr>
 <th>
 お問い合わせ内容
 </th>
-<td>
-<textarea name='' placeholder='お問い合わせ内容' rows='10'></textarea>
-</td>
+<td></td>
 </tr>
 </tbody>
 <tfoot>
 <tr>
 <td class='actions' colspan='2'>
-<input type='submit' value='確認画面に進む' />
+<input type='submit' />
 </td>
 </tr>
 </tfoot>
